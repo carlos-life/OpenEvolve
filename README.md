@@ -183,10 +183,7 @@ Beyond sorting, you can evolve:
 
 ## Contributors
 
-| | |
-|---|---|
-| [**Carlos**](https://github.com/carlos-life) | Creator & maintainer |
-| [**Claude Opus 4.6**](https://claude.ai) | AI pair programmer |
+[**Carlos**](https://github.com/carlos-life) — Creator & maintainer
 
 ## License
 
@@ -306,10 +303,7 @@ pytest tests/ -v
 
 ## 贡献者
 
-| | |
-|---|---|
-| [**Carlos**](https://github.com/carlos-life) | 作者 & 维护者 |
-| [**Claude Opus 4.6**](https://claude.ai) | AI 协作开发 |
+[**Carlos**](https://github.com/carlos-life) — 作者 & 维护者
 
 ## 许可证
 
