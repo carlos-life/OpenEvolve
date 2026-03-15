@@ -5,14 +5,39 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "openevolve"
 version = "0.1.0"
-description = "An open-source framework that uses LLMs + evolutionary algorithms to discover novel algorithms and solutions."
+description = "An open-source framework that uses LLMs + evolutionary algorithms to discover novel algorithms and solutions"
+readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.10"
+authors = [
+    {name = "Carlos", email = "zhengchenzzcc@gmail.com"},
+]
+keywords = ["llm", "evolutionary-algorithm", "ai", "code-generation", "alphaevolve", "agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "openai>=1.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/carlos-life/OpenEvolve"
+Repository = "https://github.com/carlos-life/OpenEvolve"
+Issues = "https://github.com/carlos-life/OpenEvolve/issues"
 
 [project.scripts]
 openevolve = "openevolve.evolve:main"
 
 [tool.setuptools.packages.find]
 include = ["openevolve*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
