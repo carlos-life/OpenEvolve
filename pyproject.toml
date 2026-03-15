@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openevolve"
+version = "0.1.0"
+description = "An open-source framework that uses LLMs + evolutionary algorithms to discover novel algorithms and solutions."
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+]
+
+[project.scripts]
+openevolve = "openevolve.evolve:main"
+
+[tool.setuptools.packages.find]
+include = ["openevolve*"]
