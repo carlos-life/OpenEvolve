@@ -181,6 +181,13 @@ Beyond sorting, you can evolve:
 - **Neural network architectures** — Evolve activation functions or layer configurations
 - **Prompt engineering** — Evolve prompts that maximize task performance
 
+## Contributors
+
+| | |
+|---|---|
+| [**Carlos**](https://github.com/carlos-life) | Creator & maintainer |
+| [**Claude Opus 4.6**](https://claude.ai) | AI pair programmer |
+
 ## License
 
 MIT
@@ -296,6 +303,13 @@ pytest tests/ -v
 ```
 
 共 32 个测试，全部使用 `MockLLMClient`，**运行测试不需要任何 API Key**。
+
+## 贡献者
+
+| | |
+|---|---|
+| [**Carlos**](https://github.com/carlos-life) | 作者 & 维护者 |
+| [**Claude Opus 4.6**](https://claude.ai) | AI 协作开发 |
 
 ## 许可证
 
